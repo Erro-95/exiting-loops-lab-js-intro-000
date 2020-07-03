@@ -6,6 +6,7 @@ for(let i = 0 ; i < array.length ; i++){
   }
   array[i] = changeValue
 }
+return array
 }
 
 function keepGoing(array, changeValue, skipValue){
