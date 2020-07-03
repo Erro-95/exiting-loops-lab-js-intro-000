@@ -4,6 +4,12 @@ function breakOut(array, changeValue, stopValue){
 
 function keepGoing(array, changeValue, skipValue){
 
+  array.forEach((element, index) => {
+    if (element === skipValue){
+      return
+    }
+    array[i] = changeValue
+  })
 }
 
 function findBy(array, findFn){
