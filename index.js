@@ -10,6 +10,7 @@ function keepGoing(array, changeValue, skipValue){
     }
     array[i] = changeValue
   })
+  return array
 }
 
 function findBy(array, findFn){
